@@ -1,0 +1,34 @@
+{
+	"classtype": "kTask",
+	"internalversion": 4,
+	"tvardefs": [
+		{
+			"name": "tSessObj",
+			"order": 1,
+			"type": "kObject",
+			"subtype": ".OMSQLDAM.OMSQLSESS",
+			"sublen": 0
+		}
+	],
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2016-09-19 15:30:58",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"external": false,
+		"issupercomponent": false,
+		"moddate": "2017-11-01 14:30:03",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": "1"
+	}
+}
