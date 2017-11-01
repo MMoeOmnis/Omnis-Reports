@@ -1,0 +1,4 @@
+;  Set current cursor {Customer}
+Do Customer.$select(con('where CustomerID =',pID)) Returns status
+Do Customer.$fetch() Returns status
+Do Customer.$redraw(kTrue,kTrue)

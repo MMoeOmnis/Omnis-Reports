@@ -1,0 +1,10 @@
+;  This window is designed to be a base from which will be inherited the columns that
+;  comprise our Customer table
+;
+;  Two instance variables are declared in this window:
+;  Customer - a Row Variable, which will be defined from the Customer schema class
+;  oldCustomer - a Row Variable, used to hold the previous values for a particular customer record
+;
+Do Customer.$definefromsqlclass("Customer")     ;; defines the row variable
+Do Customer.$sessionobject.$assign(tSessObj)
+Do Customer.$select()     ;; creates an initial select table

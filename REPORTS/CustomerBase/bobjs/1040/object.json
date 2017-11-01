@@ -1,0 +1,27 @@
+{
+	"ident": 1040,
+	"order": 16390,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kRightJst",
+		"backcolor": "kColor3DFace",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFnone",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 19,
+		"left": 5,
+		"objlink": 0,
+		"text": "Phone :",
+		"textcolor": "kColorWindowText",
+		"top": 132,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 70
+	}
+}

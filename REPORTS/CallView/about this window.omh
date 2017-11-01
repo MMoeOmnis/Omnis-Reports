@@ -1,0 +1,17 @@
+;  Reports.LBS
+
+;  This library demonstrates basic usage of the report class.  There are
+;  two example reports.  The first is an example of an encapsulated
+;  report, which is responsible for gathering its own data, and then
+;  printing that data.  The second example report works in concert with
+;  a window class to print the specific record that is visible in the
+;  window.
+
+;  Both reports print data from two different database tables, Customer
+;  and CustomerCalls.  Since the report is based on CustomerCalls, the
+;  report has to be responsible for loading the particular Customer
+;  record associated with each CustomerCall.  The reports do this by
+;  having a method in their Record sections which is called as each
+;  record is being prepared for printing.  This method, $print(), examines
+;  the value of the column CustomerCall.CustomerNumber, and issues a
+;  SQL select statement to load the corresponding Customer record.

@@ -1,0 +1,13 @@
+On evClick
+	Do $cinst.CustomerCall.$fetch() Returns status
+	If status=kFetchFinished
+		Do $cinst.CustomerCall.$select()
+		Do $cinst.CustomerCall.$fetch() Returns status
+	End If
+	Calculate oldRow as $cinst.CustomerCall
+	Do $cinst.$objs.customerSubWindow.$getCustomer($cinst.CustomerCall.CustomerNumber)
+	Do $cinst.$redraw()
+	
+	
+On evRMouseDown
+	Set reference iObjRef to $cobj

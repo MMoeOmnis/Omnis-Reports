@@ -1,0 +1,27 @@
+{
+	"ident": 1042,
+	"order": 16392,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kRightJst",
+		"backcolor": "kColor3DFace",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFnone",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 19,
+		"left": 185,
+		"objlink": 0,
+		"text": "State :",
+		"textcolor": "kColorWindowText",
+		"top": 82,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 50
+	}
+}

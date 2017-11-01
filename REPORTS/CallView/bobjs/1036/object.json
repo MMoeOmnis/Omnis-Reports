@@ -1,0 +1,30 @@
+{
+	"ident": 1036,
+	"order": 16388,
+	"objtype": "kText",
+	"properties": {
+		"align": "kLeftJst",
+		"backcolor": "kColor3DFace",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFnone",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 77,
+		"left": 10,
+		"objlink": 0,
+		"text": {
+			"type": 14,
+			"calc": "\u001B\u000180000008#This sample library demonstrates basic usage of the OMNIS report class. The 'Print This Call' button prints the current record, while the 'Print All Calls' button uses a fully encapsulated  report to print all calls. To view the code executed context-click either on the window or window object.\u001B\u000100000002#\r"
+		},
+		"textcolor": "kColorWindowText",
+		"top": 10,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 462
+	}
+}

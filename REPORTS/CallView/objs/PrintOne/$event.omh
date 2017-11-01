@@ -1,0 +1,11 @@
+On evClick
+	Prompt for destination
+	If flag true
+		Do $clib.$reports.CallReport2.$open('*',CustomerCall) Returns lReportInst
+		Do lReportInst.$printrecord()
+		Do lReportInst.$endprint()
+	End If
+	
+	
+On evRMouseDown
+	Set reference iObjRef to $cobj

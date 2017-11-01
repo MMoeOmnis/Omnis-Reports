@@ -1,0 +1,9 @@
+On evClick
+	Prompt for destination
+	If flag true
+		Do $clib.$reports.CallReport1.$open() Returns lReportInst     ;; print report
+	End If
+	
+	
+On evRMouseDown
+	Set reference iObjRef to $cobj

@@ -1,0 +1,16 @@
+;  open a non-visual omnissql session 'REPORT' to the OMNIS Cache file Reports.DF1
+Calculate lPath as sys(10)     ;; this finds the path to the library file
+Calculate lPath as con(mid(lPath,1,len(lPath)-3),'df1')     ;; and substitutes the datafile extension for the libary file extension
+
+Do tSessObj.$logon(lPath,'','','REPORT') Returns #F
+If flag false
+	OK message  (Icon) {Couldn't locate OMNIS Cache datafile.  Please ensure that Report.DF1 is in the same directory as this example library and try again.}
+	Close library {[$clib().$name]}
+End If
+
+;  Set current cursor {Call}
+Do CustomerCall.$definefromsqlclass('CustomerCall')
+Do CustomerCall.$sessionobject.$assign(tSessObj)
+Do CustomerCall.$select() Returns lstatus
+
+Queue click {$cinst.$objs.Next}     ;; display the first record
