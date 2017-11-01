@@ -1,0 +1,25 @@
+{
+	"ident": 1011,
+	"order": 16,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kRightJst",
+		"desgroup": 0,
+		"deslock": false,
+		"fieldstyle": "",
+		"floating": false,
+		"font": 4,
+		"fontextra": 0,
+		"fontsize": 10,
+		"fontstyle": "kBold",
+		"height": -1,
+		"left": 0.008,
+		"lineno": 13,
+		"lineoffset": 0.0,
+		"printontop": false,
+		"text": "Answer",
+		"textcolor": "RGB(0,0,0)",
+		"userinfo": "",
+		"width": 2.499
+	}
+}

@@ -1,0 +1,14 @@
+;  encapsulated report
+Do Customer.$definefromsqlclass("Customer")
+Do Customer.$sessionobject.$assign(tSessObj)
+
+Do CustomerCall.$definefromsqlclass('CustomerCall')
+Do CustomerCall.$sessionobject.$assign(tSessObj)
+Do CustomerCall.$select()
+
+Do CustomerCall.$fetch() Returns lStatus
+While lStatus<>kFetchFinished
+	Do $cinst.$printrecord()
+	Do CustomerCall.$fetch() Returns lStatus
+End While
+Do $cinst.$endprint()

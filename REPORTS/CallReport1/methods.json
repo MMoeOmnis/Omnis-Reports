@@ -1,0 +1,19 @@
+[
+	{
+		"name": "$construct",
+		"ident": 0,
+		"order": 2,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lStatus",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 20
+			}
+		]
+	}
+]

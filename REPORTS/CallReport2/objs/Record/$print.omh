@@ -1,0 +1,3 @@
+Do Customer.$select(con('where CustomerID =',CustomerCall.CustomerNumber)) Returns status
+Do Customer.$fetch() Returns status
+Do default

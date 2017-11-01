@@ -1,0 +1,2 @@
+Calculate CustomerCall as pRow
+Do Customer.$definefromsqlclass("Customer")     ;; defines the row variable
